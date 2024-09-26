@@ -32,28 +32,24 @@ To set up this project, follow these steps:
    pip install -r requirements.txt
    ```
 
-## Usage
-[Provide instructions on how to run your main scripts or notebooks]
-
-## Data
-[Describe your dataset, where it comes from, and any preprocessing steps]
-
 ## Models
 We use two main models in this project:
 1. XGBoost Regression: For predicting the exact number of likes
 2. XGBoost Classification: For categorizing posts into low, medium, and high engagement
 
 ## Results
-[Summarize your key findings and model performance]
+
+XGBRegressor: R-squared score of 0.7655, 
+The Root Mean Squared Error (RMSE) is 89,333.97, 
+
+XGBoost Classifier:  overall accuracy of 74%, indicating it correctly classified 74% of all instances. 
+
 
 ## Future Work
-[Outline any plans for future improvements or extensions of the project]
+- Create more complex features by combining existing ones, such as likes-to-follower ratio or engagement rate.
+- Extract text features from post captions or comments using natural language processing techniques.
+- Incorporate external data sources like trending topics, holidays, or major events that might influence engagement.
+- Analyze the impact of Instagram algorithm changes on post visibility and engagement.
+- If possible, collect more data to increase the dataset size and diversity.
+- Use data augmentation techniques for images to artificially expand the dataset.
 
-## Contributing
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
-
-## License
-[Include your chosen license here]
-
-## Contact
-[Your contact information or link to your GitHub profile]
